@@ -1,0 +1,27 @@
+// app global css in SCSS form
+
+.q-select {
+  width: 300px;
+  background-color: white;
+}
+
+
+.flex-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 100%;
+  max-width: 300px;
+  font-size: 16px;
+  text-align: center;
+}
